@@ -14,6 +14,11 @@ Vue.use(VueRouter)
     path: '/tabChange',
     name: 'tabChange',
     component: () => import ('../views/tabChange.vue')
+  },
+  {
+    path: '/carChange',
+    name: 'carChange',
+    component: () => import ('../views/carChange.vue')
   }
 ]
 
