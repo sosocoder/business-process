@@ -24,6 +24,11 @@ Vue.use(VueRouter)
     path: '/chinaMap',
     name: 'chinaMap',
     component: () => import ('../views/chinaMap.vue')
+  },
+  {
+    path: '/todoList',
+    name: 'todoList',
+    component: () => import ('../views/todoList.vue')
   }
 ]
 
