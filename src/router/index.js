@@ -19,6 +19,11 @@ Vue.use(VueRouter)
     path: '/carChange',
     name: 'carChange',
     component: () => import ('../views/carChange.vue')
+  },
+  {
+    path: '/chinaMap',
+    name: 'chinaMap',
+    component: () => import ('../views/chinaMap.vue')
   }
 ]
 
